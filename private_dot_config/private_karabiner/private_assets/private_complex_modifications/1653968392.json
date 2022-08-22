@@ -1,0 +1,74 @@
+{
+  "title": "Left CMD -> en, Right CMD -> nb, Right Opt -> ja",
+  "rules": [
+    {
+      "description": "Left CMD -> en",
+      "manipulators": [
+        {
+          "to_if_alone": [
+            {
+              "select_input_source": {
+                "language": "en"
+              }
+            }
+          ],
+          "from": {
+            "key_code": "left_command"
+          },
+          "to": [
+            {
+              "key_code": "left_command"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Right CMD -> nb",
+      "manipulators": [
+        {
+          "to_if_alone": [
+            {
+              "select_input_source": {
+                "language": "nb"
+              }
+            }
+          ],
+          "from": {
+            "key_code": "right_command"
+          },
+          "to": [
+            {
+              "key_code": "right_command"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Right Opt -> ja",
+      "manipulators": [
+        {
+          "to_if_alone": [
+            {
+              "select_input_source": {
+                "language": "ja"
+              }
+            }
+          ],
+          "from": {
+            "key_code": "right_option"
+          },
+          "to": [
+            {
+              "key_code": "right_option"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
