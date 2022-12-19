@@ -4,5 +4,5 @@ end
 
 set -gx GPG_TTY (tty)
 status --is-interactive; and rbenv init - fish | source
-fish_add_path /opt/homebrew/opt/node@16/bin
 fish_add_path '/Applications/Visual Studio Code.app/Contents/Resources/app/bin'
+fish_add_path $HOME/.krew/bin
