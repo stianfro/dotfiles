@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled sorted 
+49dda7133324c8ab3c23f3b51c4c1a48d6780783 refs/remotes/origin/marc-hartstein
+df4be8626e2c5b2a42eb60e1f100fce469b81f7d refs/remotes/origin/master
+c3a600c42a1374530ecc1b681f26595ea5f22ee2 refs/tags/1.0.0
+64a4f988ae6e2bac05abc3782015db9fffdd3027 refs/tags/2.0.0

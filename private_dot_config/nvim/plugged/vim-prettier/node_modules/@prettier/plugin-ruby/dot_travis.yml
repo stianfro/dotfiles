@@ -1,0 +1,18 @@
+language: ruby
+rvm:
+- ruby-head
+- 2.6.1
+- 2.5.3
+branches:
+  only: master
+before_install: bin/ci-install
+script:
+- yarn test
+- yarn lint
+- yarn build
+- gem build prettier.gemspec
+- bundle exec rake test
+- bundle exec rbprettier --check 'src/ripper.rb' 'lib/**/*.rb' 'test/*_test.rb' 'prettier.gemspec'
+cache:
+- bundler
+- yarn
