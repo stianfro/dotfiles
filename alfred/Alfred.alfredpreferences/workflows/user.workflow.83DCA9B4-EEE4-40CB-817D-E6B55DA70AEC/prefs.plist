@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>modifier_none</key>
+	<string>Copy Password</string>
+	<key>modifier_option</key>
+	<string>Open and Fill</string>
+</dict>
+</plist>

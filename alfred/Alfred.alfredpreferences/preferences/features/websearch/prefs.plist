@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>2CBFABB7-95DB-49B1-966F-B99026D3A8DA</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>aci</string>
+			<key>text</key>
+			<string>Search ACI for Endpoint: {query}</string>
+			<key>url</key>
+			<string>https://network.apps.aa.intility.com/core/aci/endpoints/{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>9434ABEB-8532-424A-9DC0-1F19F9D1D5AA</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>dic</string>
+			<key>text</key>
+			<string>dictionary</string>
+			<key>url</key>
+			<string>mkdictionaries:///?text={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>9B9C9298-0666-4789-A7B1-94B9FC90E8C3</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>cs</string>
+			<key>text</key>
+			<string>Search Intility Support for {query}</string>
+			<key>url</key>
+			<string>https://support.apps.aa.intility.com/ticket-search?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>D42572EE-5AF6-4ADA-A411-21C80556B63C</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>ipam</string>
+			<key>text</key>
+			<string>Search for IP: {query}</string>
+			<key>url</key>
+			<string>https://network.apps.aa.intility.com/ipam/search?search={query}</string>
+		</dict>
+		<key>EB8183B9-1F45-4F5E-9436-E54C68F1CEC2</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>ticket</string>
+			<key>text</key>
+			<string>Open Ticket {query}</string>
+			<key>url</key>
+			<string>https://support.apps.aa.intility.com/tickets/{query}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
