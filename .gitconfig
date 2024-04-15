@@ -1,0 +1,16 @@
+[user]
+	signingkey = 3A223ED1
+	name = Stian Frøystein
+	email = stianfroy@gmail.com
+[commit]
+	gpgsign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[pull]
+	rebase = false
+[url "git@gitlab.intility.com:"]
+	insteadOf = https://gitlab.intility.com
