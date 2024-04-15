@@ -1,0 +1,187 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5",
+  "schemes" : [
+    {
+      "buttons" : {
+        "universalBackForward" : false
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x4a5",
+          "category" : "mouse",
+          "productID" : "0x8001",
+          "productName" : "BenQ ZOWIE Gaming Mouse"
+        }
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "distance" : {
+          "vertical" : 1
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "modifiers" : {
+          "vertical" : {
+            "control" : {
+              "type" : "zoom"
+            },
+            "shift" : {
+              "scale" : 7,
+              "type" : "changeSpeed"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "org.mozilla.nightly",
+        "device" : {
+          "vendorID" : "0x4a5",
+          "category" : "mouse",
+          "productName" : "BenQ ZOWIE Gaming Mouse",
+          "productID" : "0x8001"
+        }
+      },
+      "scrolling" : {
+        "distance" : {
+          "vertical" : "79.6px"
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "distance" : {
+          "vertical" : "91.4px"
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "vendorID" : "0x4a5",
+          "productID" : "0x8001",
+          "productName" : "BenQ ZOWIE Gaming Mouse"
+        },
+        "app" : "org.mozilla.firefox"
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productName" : "BenQ ZOWIE Gaming Mouse",
+          "category" : "mouse",
+          "vendorID" : "0x4a5",
+          "productID" : "0x8001"
+        },
+        "app" : "com.microsoft.edgemac"
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : "78.6px"
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productID" : "0x2275",
+          "productName" : "KVM V1.2.115",
+          "category" : "mouse",
+          "vendorID" : "0x557"
+        }
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : true
+        },
+        "distance" : {
+          "vertical" : 1
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "modifiers" : {
+          "vertical" : {
+            "shift" : {
+              "type" : "changeSpeed",
+              "scale" : 7
+            }
+          }
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "category" : "mouse",
+          "productID" : "0xc52b",
+          "productName" : "USB Receiver"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : true
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : true
+        }
+      },
+      "if" : {
+        "device" : {
+          "serialNumber" : "69B5FE7C2D3F2A3B",
+          "vendorID" : "0x46d",
+          "productID" : "0xb019",
+          "productName" : "MX Master 2S",
+          "category" : "mouse"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      }
+    }
+  ]
+}
